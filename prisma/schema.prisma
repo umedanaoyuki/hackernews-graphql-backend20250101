@@ -10,5 +10,12 @@ generator client {
 
 datasource db {
   provider = "sqlite"
-  url      = env("DATABASE_URL")
+  url      = "file:./dev.db"
+}
+
+model Link {
+  id Int @id @default(autoincrement())
+  createdAt DateTime @default(now())
+  description String
+  url String
 }

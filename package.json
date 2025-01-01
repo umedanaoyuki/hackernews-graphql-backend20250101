@@ -1,0 +1,16 @@
+{
+  "name": "hackernews-graphql-backend",
+  "version": "1.0.0",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "apollo-server": "^2.26.2",
+    "graphql": "^14.7.0"
+  }
+}

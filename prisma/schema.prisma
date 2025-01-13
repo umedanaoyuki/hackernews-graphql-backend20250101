@@ -18,6 +18,7 @@ model Link {
   createdAt DateTime @default(now())
   description String
   url String
+  // 認証用
   postedBy User? @relation(fields: [postedById], references: [id])
   postedById Int?
 }

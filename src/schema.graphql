@@ -18,7 +18,7 @@ type Link {
 }
 
 type AuthPayload {
-  # 暗号化された文字列
+  # 暗号化された文字列(token)= サーバー側からしか解読できない
   token: String
   user: User
 }
